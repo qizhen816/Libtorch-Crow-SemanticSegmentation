@@ -14,10 +14,11 @@ sudo apt-get install libboost-all-dev
 ```
 
 3. A pytorch model file end with "*.pt". This can be easily get by follow the [Tutorial](https://pytorch.org/tutorials/advanced/cpp_export.html#loading-a-pytorch-model-in-c) 
+
 Attention: this repository uses a semantic segmentation model and returns a CV::Mat format matrix,
 remember to modify the postprocess code in [model.cpp](model.cpp)
 
-4. Modify the CMakeLists[CMakeLists.txt] file according to your need.
+4. Modify the [CMakeLists](CMakeLists.txt) file according to your need.
 
 5. Run the build code and start server:
 ```bash
