@@ -26,5 +26,5 @@ cd build
 cmake ..
 make
 ```
-You can test using the [python code](test_port.py).
+You can test using the [python code](access_port.py).
 Remember to set the port right or the port mapping if using docker.
