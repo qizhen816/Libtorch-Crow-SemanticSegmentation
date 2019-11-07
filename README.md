@@ -1,7 +1,7 @@
 # Libtorch-Crow-SemanticSegmentation
 A C++ web micro server processing image from Json and return results.
 
-#Environment
+# Environment
 1. Download [libtorch](https://pytorch.org/get-started/locally/) from PyTorch Website
  or using wget https://download.pytorch.org/libtorch/cpu/libtorch-shared-with-deps-latest.zip.
 ```bash
